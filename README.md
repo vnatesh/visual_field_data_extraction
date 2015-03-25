@@ -6,5 +6,3 @@ Several opthalmology studies use visual field analysis to quantify visual defect
 - Once the text files are created, the vf_ois.py file searches each text file one by one, looking for distinct pattern matches based on regular expressions. 
 - Patterns were designed to match the following fields: MRN, test strategy, fixation losses, false positive error, false negative error, mean deviation, pattern standard deviation, and PSD p-value.
 - The output text file containis the above fields in a table which can be importaed direclty to MS excel.
-- 
-- 
